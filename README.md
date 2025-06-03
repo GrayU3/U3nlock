@@ -21,7 +21,7 @@ python main.py -p ./files/secret.pdf -w ./wordlists/lists.txt
 
 ### Cracking login
 
-python main.py --login urltargethere -U .\wordlists\users.txt -P .\wordlists\passwords.txt
+python main.py --login urltargethere -U ./wordlists/users.txt -P ./wordlists/passwords.txt
 
 ### 📁 Output log
 
