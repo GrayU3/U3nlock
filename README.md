@@ -12,7 +12,7 @@ Multi-Cracker adalah sebuah tool Python yang memungkinkan kamu melakukan brute-f
 
 ### Jalankan Tool
 
-Cracking file ZIP
+### Cracking file ZIP
 python main.py -z ./files/sample.zip -w ./wordlists/lists.txt
 
 ### Cracking file PDF
