@@ -1,6 +1,6 @@
-# 🔓 U3nlock: Offline Brute Force Tool for ZIP & PDF
+# 🔓 U3nlock: Brute Force Tool for ZIP & PDF & Login page
 
-U3nlock adalah sebuah tool Python yang memungkinkan kamu melakukan brute-force attack terhadap file ZIP dan PDF yang diproteksi password, menggunakan wordlist offline.
+U3nlock adalah sebuah tool Python yang memungkinkan kamu melakukan brute-force attack terhadap file ZIP dan PDF yang diproteksi password dan login page, menggunakan wordlist.
 
 ### ✅ Fitur:
 
