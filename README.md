@@ -1,6 +1,6 @@
-# 🔓 Multi-Cracker: Offline Brute Force Tool for ZIP & PDF
+# 🔓 U3nlock: Offline Brute Force Tool for ZIP & PDF
 
-Multi-Cracker adalah sebuah tool Python yang memungkinkan kamu melakukan brute-force attack terhadap file ZIP dan PDF yang diproteksi password, menggunakan wordlist offline.
+U3nlock adalah sebuah tool Python yang memungkinkan kamu melakukan brute-force attack terhadap file ZIP dan PDF yang diproteksi password, menggunakan wordlist offline.
 
 ### ✅ Fitur:
 
