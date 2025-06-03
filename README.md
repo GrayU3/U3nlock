@@ -28,8 +28,7 @@ python main.py --login urltargethere -U ./wordlists/users.txt -P ./wordlists/pas
 Hasil akan tersimpan otomatis ke:
 results/found_passwords.txt
 
-### 🧠 Kredit & Lisensi
-
+### 🧠 Kredit 
 Dibuat sebagai latihan Python dan cybersecurity.
 
 Gunakan hanya untuk edukasi dan pengujian sistem milik sendiri.
