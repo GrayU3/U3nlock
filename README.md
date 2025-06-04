@@ -14,7 +14,7 @@ Multi-Cracker is a Python-based tool that allows you to perform brute-force atta
 ## How to Use
 
 ### Crack ZIP files:
-python U3nlock.py -z ./files/sample.zip -w ./wordlists/lists.txt
+```python U3nlock.py -z ./files/sample.zip -w ./wordlists/lists.txt```
 
 ### Crack PDF files:
 python U3nlock.py -p ./files/secret.pdf -w ./wordlists/lists.txt
