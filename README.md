@@ -11,7 +11,7 @@ Multi-Cracker is a Python-based tool that allows you to perform brute-force atta
 - Automatic logging with timestamps
 - Modular design & easy to extend and maintain
 
-### How to Use
+## How to Use
 
 ### Crack ZIP files:
 python U3nlock.py -z ./files/sample.zip -w ./wordlists/lists.txt
@@ -20,7 +20,7 @@ python U3nlock.py -z ./files/sample.zip -w ./wordlists/lists.txt
 python U3nlock.py -p ./files/secret.pdf -w ./wordlists/lists.txt
 
 ### Crack Web Login Forms:
-python U3nlock.py --login http://localhost/login.php -U ./wordlists/users.txt -P ./wordlists/passwords.txt
+python U3nlock.py --login http://localhost/login -U ./wordlists/users.txt -P ./wordlists/passwords.txt
 
 ### Output Logs
 Cracked credentials or passwords will be saved automatically to:
