@@ -1,6 +1,6 @@
-# Multi-Cracker: Offline Brute Force Tool for ZIP & PDF
+# U3nlock: Offline Brute Force Tool for ZIP, PDF & Web Logins
 
-Multi-Cracker is a Python-based tool that allows you to perform brute-force attacks on password-protected ZIP files, PDF documents, and web login forms using an offline wordlist.
+U3nlock is a Python-based tool that allows you to perform brute-force attacks on password-protected ZIP files, PDF documents, and web login forms using an offline wordlist.
 
 ### Fitur:
 
@@ -14,19 +14,19 @@ Multi-Cracker is a Python-based tool that allows you to perform brute-force atta
 ## How to Use
 
 ### Crack ZIP files:
-```python U3nlock.py -z ./files/sample.zip -w ./wordlists/lists.txt```
+`python U3nlock.py -z ./files/sample.zip -w ./wordlists/lists.txt`
 
 ### Crack PDF files:
-python U3nlock.py -p ./files/secret.pdf -w ./wordlists/lists.txt
+`python U3nlock.py -p ./files/secret.pdf -w ./wordlists/lists.txt`
 
 ### Crack Web Login Forms:
-python U3nlock.py --login http://localhost/login -U ./wordlists/users.txt -P ./wordlists/passwords.txt
+`python U3nlock.py --login http://localhost/login -U ./wordlists/users.txt -P ./wordlists/passwords.txt`
 
-### Output Logs
+## Output Logs
 Cracked credentials or passwords will be saved automatically to:
 results/found_passwords.txt
 
-### Credits 
+## Credits 
 Created as a learning project in Python and cybersecurity.
 
 For educational and legal system testing purposes only.
