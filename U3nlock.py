@@ -9,7 +9,31 @@ from utils.file_utils import file_exists, is_zip_file
 from utils.log_utils import log_error
 
 def main():
-    parser = argparse.ArgumentParser(description="🔓 Multi-format File Cracker (ZIP stage)")
+
+    if "-help" in sys.argv:
+        sys.argv[sys.argv.index("-help")] = "--help"
+
+    parser = argparse.ArgumentParser(
+        description="U3nlock: Multi-format File & Web Login Cracker",
+        epilog="""
+Contoh Penggunaan:
+
+   Cracking file ZIP:
+    python U3nlock.py -z ./files/sample.zip -w ./wordlists/lists.txt
+
+   Cracking file PDF:
+    python U3nlock.py -p ./files/secret.pdf -w ./wordlists/lists.txt
+
+   Cracking form login :
+    python U3nlock.py --login http://localhost/login -U users.txt -P passwords.txt
+
+   Catatan:
+    - Gunakan hanya untuk pengujian sistem milik sendiri.
+    - Output akan disimpan di: results/found_passwords.txt
+    resource: https://github.com/GrayU3/U3nlock
+""",
+        formatter_class=argparse.RawDescriptionHelpFormatter
+    )
     parser.add_argument("-z", "--zip", help="Path ke file ZIP")
     parser.add_argument("-p", "--pdf", help="Path ke file PDF (encrypted)")
     parser.add_argument("-w", "--wordlist", help="Path ke wordlist")
