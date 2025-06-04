@@ -2,7 +2,7 @@
 
 U3nlock is a Python-based tool that allows you to perform brute-force attacks on password-protected ZIP files, PDF documents, and web login forms using an offline wordlist.
 
-### Fitur:
+### feature:
 
 - Crack ZIP archives
 - Crack PDF files
